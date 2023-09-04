@@ -75,7 +75,8 @@ nav button {
     font-weight: 400;
     margin-bottom: 20px;
 }
-.email-signup{
+
+.email-signup {
     background: white;
     border-radius: 4px;
     display: flex;
@@ -83,6 +84,7 @@ nav button {
     margin-top: 30px;
     overflow: hidden;
 }
+
 .email-signup input {
     flex: 1;
     border: 0;
@@ -100,26 +102,31 @@ nav button {
     cursor: pointer;
     padding: 15px 30px;
 }
-.features{
+
+.features {
     padding: 50px 12%;
     font-size: 22px;
 }
-.row{
+
+.row {
     display: flex;
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
     padding: 50px 0;
 }
-.text-col{
+
+.text-col {
     flex-basis: 50%;
     margin-bottom: 20px;
 }
-.img-col{
+
+.img-col {
     flex-basis: 50%;
     margin-bottom: 20px;
 }
-.img-col img{
+
+.img-col img {
     display: block;
     width: 90%;
     margin: auto;
