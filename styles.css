@@ -300,6 +300,13 @@ input[type="radio"] {
   label::after {
     font-size: 18px; /* Reduce accordion icon size */
   }
+  .faq .email-signup button {
+    width: 25%;
+  }
+
+  .faq .email-signup input[type="email"] {
+    width: 75%;
+  }
 }
 
 /* Additional CSS for max-width: 415px */
@@ -344,5 +351,12 @@ input[type="radio"] {
 
   label::after {
     font-size: 16px; /* Reduce accordion icon size for smaller screens */
+  }
+   .faq .email-signup button {
+    width: 25%;
+  }
+
+  .faq .email-signup input[type="email"] {
+    width: 75%;
   }
 }
