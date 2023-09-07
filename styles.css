@@ -228,60 +228,121 @@ input[type="radio"] {
   margin-bottom: 10px;
 }
 
-@media (max-width:600px){
-    .logo{
-        width: 100px;
-    }
-    nav button{
-        padding: 5px 10px;
-    }
-    nav .language-btn{
-        padding: 4px 8px
-    }
-    .header .content{
-        position: unset;
-        transform: none;
-        padding-top: 150px;
-    }
-    .header-content h1{
-      font-size: 40px;
-    }
-    .email-signup button{
-      font-size: 12px;
-      padding: 10px 15px;
-    }
-    .text-col, .img-col{
-      flex-basis: 100%;
+/* Existing CSS code */
 
-    }
-    .features h2{
-      font-size: 30px;
-    }
-    .features p{
-      font-size: 15px;
-    }
-    .row:nth-child(2){
-      flex-direction: column-reverse;
-    }
-    .row:nth-child(4){
-      flex-direction: column-reverse;
-    }
-    .features .row{
-      padding: 10px 0;
-    }
-    .faq h1{
-      font-size: 20px;
+@media (max-width: 600px) {
+  .logo {
+    width: 80px; /* Reduce logo size for smaller screens */
+  }
 
-    }
-    .accordion .content{
-      font-size: 14px;
-    }
-    .accordion li lable{
-      padding: 10px;
-      font-size: 14px;
-    }
-    lable::after{
-      font-size: 22px;
-    }
+  nav button {
+    padding: 5px 10px; /* Adjust button padding */
+    font-size: 14px; /* Adjust button font size */
+  }
 
+  nav .language-btn {
+    padding: 4px 8px; /* Adjust language button padding */
+  }
+
+  .header .content {
+    position: unset;
+    transform: none;
+    padding-top: 120px; /* Adjust header content padding */
+  }
+
+  .header-content h1 {
+    font-size: 36px; /* Reduce header title font size */
+  }
+
+  .email-signup button {
+    font-size: 14px; /* Adjust email signup button font size */
+    padding: 10px 20px; /* Adjust email signup button padding */
+  }
+
+  .text-col,
+  .img-col {
+    flex-basis: 100%;
+  }
+
+  .features h2 {
+    font-size: 26px; /* Reduce feature section heading font size */
+  }
+
+  .features p {
+    font-size: 14px; /* Adjust feature section paragraph font size */
+  }
+
+  .row:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  .row:nth-child(4) {
+    flex-direction: column-reverse;
+  }
+
+  .features .row {
+    padding: 10px 0;
+  }
+
+  .faq h1 {
+    font-size: 20px;
+  }
+
+  .accordion .content {
+    font-size: 14px;
+  }
+
+  .accordion li label {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  label::after {
+    font-size: 18px; /* Reduce accordion icon size */
+  }
+}
+
+/* Additional CSS for max-width: 415px */
+@media (max-width: 415px) {
+  .logo {
+    width: 60px; /* Further reduce logo size */
+  }
+
+  .header .content {
+    padding-top: 100px; /* Adjust header content padding */
+  }
+
+  .header-content h1 {
+    font-size: 28px; /* Reduce header title font size for smaller screens */
+  }
+
+  .email-signup button {
+    font-size: 12px; /* Reduce email signup button font size for smaller screens */
+    padding: 8px 16px; /* Adjust email signup button padding */
+  }
+
+  .features h2 {
+    font-size: 22px; /* Reduce feature section heading font size for smaller screens */
+  }
+
+  .features p {
+    font-size: 12px; /* Reduce feature section paragraph font size for smaller screens */
+  }
+
+  .faq h1 {
+    font-size: 18px; /* Reduce FAQ heading font size for smaller screens */
+  }
+
+  .accordion .content {
+    font-size: 12px; /* Reduce FAQ content font size for smaller screens */
+  }
+
+  .accordion li label {
+    padding: 8px; /* Adjust FAQ label padding for smaller screens */
+    font-size: 12px; /* Reduce FAQ label font size for smaller screens */
+  }
+
+  label::after {
+    font-size: 16px; /* Reduce accordion icon size for smaller screens */
+  }
 }
